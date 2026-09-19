@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniqah | Frontend Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">aniqah<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Work</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="menu-btn" id="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <span class="hero-subtitle">Frontend Web Developer & Interface Engineer</span>
+            <h1>Crafting digital interfaces with architectural <span class="italic">precision</span> and minimalist aesthetics.</h1>
+            <p>Specializing in structural layouts, clean code, and building highly responsive, scalable web platforms that optimize user experience.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">Explore Selected Work</a>
+                <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-grid">
+            <div class="section-header-block">
+                <h2 class="section-title">Profile</h2>
+                <p class="section-tagline">Background & Approach</p>
+            </div>
+            <div class="about-content">
+                <p>I am a passionate Front-End Developer dedicated to building clean, user-centric interfaces. I specialize in turning complex design mockups into pixel-perfect, interactive web applications.</p>
+                <p>With a strong focus on layout precision, performance optimization, and clean architectural code practices, I love bringing creative concepts to life on the screen. My philosophy centers on simplicity, standard compliance, and structural integrity.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-grid">
+            <div class="section-header-block">
+                <h2 class="section-title">Expertise</h2>
+                <p class="section-tagline">Capabilities & Stack</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-list-item">
+                    <span class="skill-num">01/</span>
+                    <div class="skill-detail">
+                        <h3>Semantic HTML5 & Modern CSS Architectures</h3>
+                        <p>Advanced layouts built cleanly using native CSS Grid and Flexbox systems for absolute layout precision.</p>
+                    </div>
+                </div>
+                <div class="skills-list-item">
+                    <span class="skill-num">02/</span>
+                    <div class="skill-detail">
+                        <h3>Vanilla JavaScript Development</h3>
+                        <p>Writing structured, efficient, and clean logic algorithms to build dynamic, interactive UI components.</p>
+                    </div>
+                </div>
+                <div class="skills-list-item">
+                    <span class="skill-num">03/</span>
+                    <div class="skill-detail">
+                        <h3>Responsive Frameworks & Prototyping</h3>
+                        <p>Streamlining responsive web architectures with Bootstrap 5 and translating design structures from Figma mockups.</p>
+                    </div>
+                </div>
+                <div class="skills-list-item">
+                    <span class="skill-num">04/</span>
+                    <div class="skill-detail">
+                        <h3>Version Control & Production Deployment</h3>
+                        <p>Managing codebase histories cleanly via Git/GitHub and hosting stable automated builds through Netlify.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="projects-top">
+            <div>
+                <h2 class="section-title">Selected Work</h2>
+                <p class="section-tagline">Featured Projects</p>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="javascript">JavaScript Architecture</button>
+                <button class="filter-btn" data-filter="responsive">Responsive Layouts</button>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card fade-in" data-category="responsive">
+                <div class="project-image-wrapper">
+                    <img class="project-image" src="image" alt="Hackathon Landing System screenshot">
+                    <div class="project-image-overlay"></div>
+                </div>
+                <div class="project-card-body">
+                    <div class="project-meta">
+                        <span>01 / RESPONSIVE DESIGN</span>
+                        <span>2026</span>
+                    </div>
+                    <h3 class="project-name">Hackathon Landing System</h3>
+                    <p class="project-desc">A highly precise, production-ready landing interface configured with an emphasis on pixel-perfect alignment, custom grids, and cross-device optimization.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS Grid</span>
+                        <span class="tag">Flexbox</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://deluxe-twilight-4f6932.netlify.app/" target="_blank" class="project-btn live-demo-btn">Live Demo 1 <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://resilient-torte-5aeffc.netlify.app/" target="_blank" class="project-btn view-code-btn">Live demo 2 <i class="fab fa-github"></i></a>
+                         <a href="https://startling-paletas-f8f3d7.netlify.app/" target="_blank" class="project-btn live-demo-btn">Live Demo 3 <i class="fas fa-external-link-alt"></i></a>
+
+                                              
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card fade-in" data-category="javascript">
+                <div class="project-image-wrapper">
+                    <img class="project-image" src="image 2 .png" alt="Algorithmic Script Interfaces screenshot">
+                    <div class="project-image-overlay"></div>
+                </div>
+                <div class="project-card-body">
+                    <div class="project-meta">
+                        <span>02 / LOGIC BUILDER</span>
+                        <span>2026</span>
+                    </div>
+                    <h3 class="project-name">Algorithmic Script Interfaces</h3>
+                    <p class="project-desc">An interactive repository focusing on clean structural JavaScript operations, modular code patterns, dynamic DOM logic manipulation, and runtime exercises.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">DOM API</span>
+                        <!-- <span class="tag">ES6+</span>
+                        <span class="tag">Modular</span> -->
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://starlit-queijadas-f8bb49.netlify.app/" target="_blank" class="project-btn live-demo-btn">Live Demo 1 <i class="fas fa-external-link-alt"></i></a> <!-- PASTE YOUR NETLIFY LIVE LINK HERE -->
+                        <a href="https://beautiful-malabi-d21063.netlify.app/" target="_blank" class="project-btn view-code-btn">Live demo 2 <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-grid">
+            <div class="section-header-block">
+                <h2 class="section-title">Connect</h2>
+                <p class="section-tagline">Available for Collaborations</p>
+            </div>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="input-group">
+                            <label>Email Address</label>
+                            <input type="email" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Submit Inquiry</button>
+                </form>
+                
+                <div class="contact-footer-info">
+                    <div class="contact-meta-item">
+                        <span>Location</span>
+                        <p>Karachi, Pakistan</p>
+                    </div>
+                    <div class="contact-meta-item">
+                        <span>Digital Channels</span>
+                        <div class="social-text-links">
+                            <a href="https://github.com/aniqahnaveed09-web" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/aniqah-naveed-28b964390/?isSelfProfile=true" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Aniqah. All rights reserved. Built with structural clean code practices.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
